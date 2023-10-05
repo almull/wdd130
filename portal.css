@@ -1,3 +1,9 @@
+#content {
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 a{ 
     background-color:lightblue;
 color: rgb(71, 69. 69);
@@ -6,12 +12,39 @@ padding: 10px;
 margin: 5px;
 text-align: center; 
 }
-nav{
-display: flex;
-background-color: pink;
-}
+a:hover{
+    background-color: darkgray;
+    color: white;
 
-p{
+
+}
+nav{
+    display: flex;
+    background-color: darkgray;
+}
+h1{
+    font-size: 3em
+    display: block;
+    margin: 0 auto;
+}
+img{
+    width: 50%;
+    text-align: center;
+    image-resolution: 100;
+}
+p{ text-align: center;
+    width: 300 px;
+    margin: 10 auto;
+    padding: 10px;
+}
+.background{
     Background-color: #ccc;
+}
+footer p { 
+    width: 100%;
+    background-color:lightblue;
+    color: rgb(71, 69. 69);
+    text-align: center;
+
 }
  
