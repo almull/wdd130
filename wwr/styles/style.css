@@ -49,6 +49,7 @@ nav a:hover{
 
 h2{
     background-color: white;
+    text-align: center;
 }
 
 #background{ 
@@ -64,10 +65,12 @@ h2{
 }
 .msg h2{
     color: black;
+    text-align: center;
 }
 
 .msg p{
     color: black;
+    text-align: center;
 }
 
 footer{
@@ -106,4 +109,7 @@ footer p a:hover{
 
 #content{
     margin: 0 auto;
+}
+main{
+    text-align: center;
 }
