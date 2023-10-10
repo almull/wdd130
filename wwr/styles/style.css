@@ -7,6 +7,9 @@ nav a{
     text-decoration: none; 
 }
 
+#hero-img{
+    
+}
 #hero-msg h1, #hero-msg h4{
     text-align: center;
     ;
@@ -92,9 +95,7 @@ footer a:hover{
 #background{
     background-color: tan;
 }
-div{
-    max-width: 1600px;
-}
+
 .logo, .icon{
     Width: 80px;
 }
@@ -109,6 +110,7 @@ footer p a:hover{
 
 #content{
     margin: 0 auto;
+    max-width: 1600px;
 }
 main{
     text-align: center;
