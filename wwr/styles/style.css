@@ -30,7 +30,7 @@ main section{
 
 body{
     background-color: white;
-    font-family: Rock Salt;
+    font-family: Rock Salt, Verdana;
     font-size: 12px;
     margin: 0;
     padding: 0;
@@ -38,7 +38,7 @@ body{
 
 header{
     background-color:rgba(93, 106, 121, 0.7);
-    font-family: Roboto;
+    font-family: Roboto, Geneva;
     font-size: 22;
 }
 
