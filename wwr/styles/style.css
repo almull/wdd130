@@ -30,7 +30,7 @@ main section{
 
 body{
     background-color: white;
-    font-family: Rock Salt, Verdana;
+    font-family: "Rock Salt", Verdana;
     font-size: 12px;
     margin: 0;
     padding: 0;
@@ -38,7 +38,7 @@ body{
 
 header{
     background-color:rgba(93, 106, 121, 0.7);
-    font-family: Roboto, Geneva;
+    font-family: "Roboto","Geneva";
     font-size: 22px;
 }
 
@@ -96,7 +96,7 @@ h2{
 .msg p{
     color: black;
     text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 0.8em;
     padding-bottom: 15px;
 }
@@ -104,7 +104,7 @@ h2{
 footer{
     background-color: rgb(120, 119, 119);
     color: black;
-    font-family: Roboto;
+    font-family: "Roboto";
     padding: 25px 50px;
     margin-top: 200px;
 }
