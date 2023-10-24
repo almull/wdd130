@@ -39,7 +39,7 @@ body{
 header{
     background-color:rgba(93, 106, 121, 0.7);
     font-family: Roboto, Geneva;
-    font-size: 22;
+    font-size: 22px;
 }
 
 nav a:hover{
