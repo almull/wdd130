@@ -206,7 +206,7 @@ main{
     transform: scale(1.1);
 }
 
-.rivers-car, .camping-card, .rapids-card{
+.rivers-card, .camping-card, .rapids-card{
     margin-top: 200px;
 }
 
@@ -234,6 +234,10 @@ main{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
 
 main section img{
     box-sizing: border-box;
