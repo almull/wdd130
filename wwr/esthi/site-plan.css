@@ -1,30 +1,29 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
-
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Playpen+Sans:wght@200&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color:   #ffeceb ;
-  --secondary-color: #fee9e8;
-  --accent1-color: #e3a9a9;
-  --accent2-color: #e7b2b1;
+  --primary-color: #ebb0a1   ;
+  --secondary-color: #eab1a0 ;
+  --accent1-color: #ecb5a7;
+  --accent2-color: #fdf9f7;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Agabalumo", Helvetica;
+  --paragraph-font: "Playpen Sans", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: black;  /* headlines on a white background */ 
-  --headline-color-on-color: black; /* headlines on a colored background */ 
+  --headline-color-on-white: black  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-  --paragraph-color-on-color:black ; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #black  ;
-  --nav-link-color: black;
-  --nav-background-color: #fee9e8;
-  --nav-hover-link-color: #e7b2b1;
-  --nav-hover-background-color: #ffeceb4;
+  --paragraph-color-on-color: black; /* paragraph text on a colored background */ 
+  --paragraph-background-color: black  ;
+  --nav-link-color: #ebb0a1;
+  --nav-background-color: #eab1a0;
+  --nav-hover-link-color: #fdf9f7;
+  --nav-hover-background-color: #ebb0a1;
 }
 
 
@@ -83,16 +82,16 @@ p {
 }
 
 .primary {
-  background-color: #ffeceb;
+  background-color: var(--primary-color);
 }
 .secondary {
-  background-color: #fee9e8;
+  background-color: var(--secondary-color);
 }
 .accent1 {
-  background-color: #e3a9a9;
+  background-color: var(--accent1-color);
 }
 .accent2{
-  background-color: #e7b2b1;
+  background-color: var(--accent2-color);
 }
 
 p.colored {
