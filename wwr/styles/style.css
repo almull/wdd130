@@ -129,7 +129,7 @@ h2{
 .msg p{
     color: black;
     text-align: center;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Verdana sans-serif;
     font-size: 0.8em;
     padding-bottom: 15px;
 }
@@ -137,7 +137,7 @@ h2{
 footer{
     background-color: rgb(120, 119, 119);
     color: black;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Verdana, sans-serif;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -209,7 +209,7 @@ main{
 .rivers-card, .camping-card, .rapids-card{
     margin-top: 200px;
 }
-
+.msg
 .card-img, .mountains{
     width: 100%;
 }
