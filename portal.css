@@ -1,41 +1,58 @@
-#content {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Rock+Salt&display=swap');
+
+body {
+    font-family: Roboto, Verdana, sans-serif;
     background-color: white;
+}
+#content {
+    background-color: lightblue;
     max-width: 800px;
     margin: 0 auto;
 }
 
 a{ 
-    background-color:lightblue;
+    background-color:lightblue; 
 color: rgb(71, 69. 69);
 text-decoration: none;
 padding: 10px;
 margin: 5px;
 text-align: center; 
+
 }
 a:hover{
     background-color: darkgray;
     color: white;
-
-
 }
 nav{
     display: flex;
     background-color: darkgray;
+    justify-content: Center;
+    padding-top: 20px;
 }
 h1{
+    font-family: Rock Salt, ;
     font-size: 3em
-    display: block;
-    margin: 0 auto;
+    display; block;
+    margin: 40px;
+    
 }
 img{
     width: 50%;
     text-align: center;
     image-resolution: 100;
+    display: block;
+    margin: 20 px, auto;
+    border: 3px solid lightblue;
+    padding: 10px;
+    box-sizing: border-box;
 }
-p{ text-align: center;
-    width: 300 px;
+p{  
+    /* text-align: center; */
+    text-align: center;
+    width: 50%;
     margin: 10 auto;
     padding: 10px;
+    box-sizing: border-box;
 }
 .background{
     Background-color: #ccc;
