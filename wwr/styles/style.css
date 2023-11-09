@@ -243,6 +243,12 @@ main section img{
     box-sizing: border-box;
 }
 
+/*Rivers CSS*/
+ 
+main{ 
+    text-align: center;
+    
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
