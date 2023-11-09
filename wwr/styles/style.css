@@ -247,8 +247,22 @@ main section img{
  
 main{ 
     text-align: center;
-    
+    padding-top: 100px;
+    padding-left: 50%;
+    padding-right: 5%;
+    padding-bottom: 100px;
+    align-content: center   
+} 
+
+.salmon-card{
+    padding-left: 5%;
+    padding-top: 100px;
+    padding-right: 50%;
+    padding-bottom: 100px;
 }
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
