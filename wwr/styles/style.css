@@ -328,13 +328,12 @@ form {
     font-size: 1.2em
   }
   #feedback {
-    background-color: white;
+    background-color: tan;
     position: absolute;
-    top: 0;
+    /*top: 0;
     left: 0;
     right: 0;
     padding: .5em;
-    text-align: center;
     /* make this element invisible until we are ready for it */
     display: none;      
 }
