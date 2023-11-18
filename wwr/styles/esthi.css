@@ -1,0 +1,16 @@
+.logo {
+    width: 175px;
+    height: 100px;
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+
+.lotion{
+    width: 200px;
+    height: 200px;
+}
+
+.oil{
+    width: 200px;
+    height: 200px;
+}
