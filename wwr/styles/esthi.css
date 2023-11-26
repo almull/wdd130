@@ -1,16 +1,76 @@
+@import url(https://coolors.co/palette/f1c8be-e9b19f-e9afa1-faedea-fdfdfd1); 
+@import url();
 .logo {
-    width: 175px;
-    height: 100px;
-    grid-column: 2/4;
-    grid-row: 3/5;
-}
+    width: 375px;
+    height: 300px;
 
+}
 .lotion{
     width: 200px;
     height: 200px;
 }
 
 .oil{
-    width: 200px;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    padding-left: 15px;
+}
+
+.brush{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+   
+}
+
+.mission{
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+.ae{
+    font-size: 75px;
+}
+.salts{
+    width: 300px;
+    height: 300px;
+    margin-right: auto;
+
+}
+
+nav{
+    font-size: 200%;
+}
+
+.leaf{
+    width: 4400px;
     height: 200px;
+    padding-bottom: 7%;
+    margin-left: auto;
+}
+header{
+    background-color: #faedea;
+}
+main{
+    padding-top: 7%;
+    text-align: center;
+    background-color: #f1c8be;
+    padding-bottom: 7%;
+}
+
+.leave{
+    padding-top: 3%;
+    width: 4000px;
+    height: 200px;
+    padding-bottom: 10%;
+    
+}
+
+nav a{ 
+    margin-left: auto;
+    text-align: center;
+    color: black;
+    text-decoration: none; 
+    padding:35px;
 }
