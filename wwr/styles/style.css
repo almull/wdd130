@@ -38,6 +38,11 @@ main section{
     
 }
 
+main{
+padding-left: 50px;
+padding-right: 50px;
+}
+
 #background{ 
     height: 725px;
     grid-column: 1/11;
@@ -45,11 +50,11 @@ main section{
 }
 
 body{
-    background-color: white;
+    background-color: #ccc;
     font-family: 'Rock Salt', Verdana, Arial;
     font-size: 12px;
     margin: 0;
-    padding: 0;
+    
 }
 
 header{
