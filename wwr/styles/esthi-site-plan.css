@@ -9,7 +9,7 @@ Fonts are separated by a | */
   --primary-color: #f1c8be;
   --secondary-color: #e9b19f ;
   --accent1-color: #e9afa1;
-  --accent2-color: #faedae;
+  --accent2-color: #faedea;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Agbalumo", Lato;
@@ -23,7 +23,7 @@ Fonts are separated by a | */
   --paragraph-background-color: #f1c8be  ;
   --nav-link-color: #f1c8be;
   --nav-background-color: #e9b19f;
-  --nav-hover-link-color: #faedae;
+  --nav-hover-link-color: #faedea;
   --nav-hover-background-color: #f1c8be;
 }
 
