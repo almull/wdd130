@@ -1,5 +1,5 @@
-@import url(https://coolors.co/palette/f1c8be-e9b19f-e9afa1-faedea-fdfdfd1); 
-@import url();
+@import url('https://coolors.co/palette/f1c8be-e9b19f-e9afa1-faedea-fdfdfd1'); 
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Playpen+Sans:wght@200&display=swap');
 .logo {
     width: 375px;
     height: 300px;
@@ -13,29 +13,70 @@
 .oil{
     width: 300px;
     height: 300px;
-    margin-left: auto;
-    padding-left: 15px;
+    border: 5px solid #faedae;
+    
 }
+
 
 .brush{
     width: 300px;
     height: 300px;
     margin: 0 auto;
+    border: 5px solid #faedae;
    
 }
 
+.book{
+    background-color: #e9afa1;
+    color: #faedae;
+    text-decoration: none;
+    font-size: 20px;
+   padding: 10px 10px;
+   margin-top: 50px;
+   border-radius: 5px;
+   
+}
+
+
+.button-box{
+    font-family: 'Playpen Sans';
+    color: #faedae;
+    text-align: center;
+}
+
 .mission{
-    padding-bottom: 50px;
-    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: 'Playpen Sans';
+   color: white;
+ justify-self: space-around;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Playpen Sans';
+    color: #e9b19f;
+}
+
+
+nav a:hover{
+    background-color: #faedae;
+    color: #e9afa1;
 }
 
 .ae{
+    color: #e9b19f;
     font-size: 75px;
+    text-align: center;
+    font-family: 'Agbalumo';
 }
 .salts{
     width: 300px;
     height: 300px;
     margin-right: auto;
+    border: 5px solid #faedae;
 
 }
 
@@ -61,10 +102,13 @@ main{
 
 .leave{
     padding-top: 3%;
-    width: 4000px;
-    height: 200px;
+    width: 100%;
     padding-bottom: 10%;
     
+}
+
+body{
+    background-color: #f1c8be
 }
 
 nav a{ 
@@ -74,3 +118,8 @@ nav a{
     text-decoration: none; 
     padding:35px;
 }
+
+footer{
+    background-color: #faedea;
+}
+
