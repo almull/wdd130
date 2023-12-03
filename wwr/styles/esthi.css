@@ -42,22 +42,24 @@
     font-family: 'Playpen Sans';
     color: #faedae;
     text-align: center;
+    margin-top: 50px;
 }
 
 .mission{
+    margin: auto;
     text-align: center;
-    padding-top: 50px;
     font-size: 30px;
     font-family: 'Playpen Sans';
    color: white;
- justify-self: space-around;
+   margin-left: 15%;
+   margin-right: 15%;
 }
 
 nav{
-    display: flex;
     justify-content: space-around;
     font-family: 'Playpen Sans';
     color: #e9b19f;
+    text-align: center;
 }
 
 
@@ -68,7 +70,7 @@ nav a:hover{
 
 .ae{
     color: #e9b19f;
-    font-size: 75px;
+    font-size: 50px;
     text-align: center;
     font-family: 'Agbalumo';
 }
@@ -85,10 +87,9 @@ nav{
 }
 
 .leaf{
-    width: 4400px;
-    height: 200px;
-    padding-bottom: 7%;
-    margin-left: auto;
+    width: 100%;
+    height: 150px;
+    
 }
 header{
     background-color: #faedea;
@@ -101,10 +102,9 @@ main{
 }
 
 .leave{
-    padding-top: 3%;
-    width: 100%;
-    padding-bottom: 10%;
-    
+    width: 300px;
+    height: 300px;
+    border: 5px solid #faedae;
 }
 
 body{
