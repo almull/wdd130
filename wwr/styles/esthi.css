@@ -26,6 +26,7 @@
    
 }
 
+
 .book{
     background-color: #e9afa1;
     color: #faedae;
@@ -45,6 +46,28 @@
     margin-top: 50px;
 }
 
+.menu{
+    color:white;
+    font-family: 'Playpen Sans';
+    text-align: center;
+     
+
+}
+
+
+
+.brows{
+    color:white;
+    font-family: 'Playpen Sans';
+    text-align: center;
+}
+
+.wax{
+    color:white;
+    font-family: 'Playpen Sans';
+    text-align: center;
+
+}
 .mission{
     margin: auto;
     text-align: center;
