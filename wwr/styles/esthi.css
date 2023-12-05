@@ -1,5 +1,6 @@
-@import url('https://coolors.co/palette/f1c8be-e9b19f-e9afa1-faedea-fdfdfd1'); 
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Playpen+Sans:wght@200&display=swap');
+
+@import url('https://coolors.co/palette/f1c8be-e9b19f-e9afa1-faedea-fdfdfd1'); 
 .logo {
     display: block;
     margin: auto;
@@ -162,6 +163,7 @@ footer .social img{
 }
 
 footer a{
+    margin: 0 15px;
     color: #e9b19f ;
     text-decoration: none;
 }
