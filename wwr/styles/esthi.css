@@ -11,9 +11,40 @@
 }
 
 
+.product{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #faedea;
+}
+
+.candle{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #faedea;
+}
+
+.facial{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #faedea;
+}
+
+.bottles{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #faedea;
+}
+
+.jade{
+    width: 300px;
+    height: 300px;
+  border: 5px solid #faedea;
+}
+
 .lotion{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+    border: 5px solid #faedea;
 }
 
 .oil{
@@ -32,11 +63,6 @@
    
 }
 
-.main{
-    display: grid;
-    grid-template-columns:repeat(6,100px);
-
-}
 
 .book{
     background-color: #e9afa1;
@@ -54,42 +80,59 @@
     color: #faedea;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
     font-size: 45px;
 }
 
 .book:hover{
     color: black;
-
 }
 
 .menu{
     color:white;
     font-family: 'Playpen Sans';
     text-align: center;
-     font-size: 20px;
+     font-size: 30px;
 }
 
 .brows{
     color:white;
     font-family: 'Playpen Sans';
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .wax{
     color:white;
     font-family: 'Playpen Sans';
     text-align: center;
-font-size: 20px;
+font-size: 30px;
 }
 .mission{
-    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
     font-size: 30px;
     font-family: 'Playpen Sans';
    color: white;
-   grid-column: 3/5;
-   grid-row: 4/7;
+}
+
+.feedback{
+    font-family: 'Agbalumo', Georgia;
+    color: white;
+    font-size: 30px;
+}
+.concerns{
+    font-family: 'Agbalumo', Georgia;
+    color: white;
+    text-align: center;
+}
+
+.help{
+    font-family: 'Playpen Sans';
+    color: white;
 }
 
 nav{
@@ -97,12 +140,15 @@ nav{
     font-family: 'Playpen Sans';
     color: #e9b19f;
     text-align: center;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 
 nav a:hover{
     background-color: #f1c8be;
-    color: #e9afa1;
+    color: black;
 }
 
 .ae{
@@ -146,9 +192,20 @@ body{
 nav a{ 
     margin-left: auto;
     text-align: center;
-    color: black;
+    color: #e9afa1;
     text-decoration: none; 
-    padding:35px;
+
+    
+}
+
+.faq{
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Playpen Sans';
+   color: white;
+    padding-bottom: 25px;
+
 }
 
 footer{
@@ -173,3 +230,54 @@ footer a{
 footer a:hover{
     color: black ;
 }
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    display: block;
+    margin: auto;
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  
