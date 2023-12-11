@@ -88,6 +88,12 @@
     color: black;
 }
 
+.serv{
+    font-family: 'Agbalumo';
+    font-size: 40px;
+    text-align: center;
+    color: white;}
+
 .menu{
     display: flex;
     align-items: center;
