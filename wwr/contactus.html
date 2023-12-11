@@ -5,62 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Now</title>
     <link rel="stylesheet" href="styles/esthi.css">
-   
 </head>
 <body>
     <div id="content"> 
-            <header>
-        <a id="logo_link" href="allysesthetics.html">
-            <img class="logo" src="images/esthi_logo.jpg" alt="Esthi Logo">
-        </a>
-        <nav>
-            <a href="allysesthetics.html">Home</a>
-            <a href="service.html"> Services</a>
-            <a href="contactus.html">Contact Us</a>
-
-        </nav>
-
-        <img class="leaf" src="images/leaf(2).webp" alt="leaf">
-
-    </header>
+        <header>
+            <a id="logo_link" href="allysesthetics.html">
+                <img class="logo" src="images/esthi_logo.jpg" alt="Esthi Logo">
+            </a>
+            <nav>
+                <a href="allysesthetics.html">Home</a>
+                <a href="service.html"> Services</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+            <img class="leaf" src="images/leaf(2).webp" alt="leaf">
+        </header>
     </div>
-   
-    <main> <div class="feedback">
 
-       <h2> Please enter your booking information. </h2>
-      </div>
+    <main>
+        <div class="feedback">
+            <h2>Please enter your booking information.</h2>
+        </div>
 
-      <div class="concerns">
-        <h2>  Please include any questions or concerns you have relating to your service</h2>
-      </div>
-            <div class="help">
-        <form action="#" method="post">
-            <ul>
-              <li>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name">
-              </li>
-              <li>
-                <label for="mail">Time:</label>
-                <input type="email" id="mail" name="user_email">
-              </li>
-              <li>
-                <label for="msg"> Service:</label>
-                <textarea id="msg" name="user_message"></textarea>
-              </li>
-              <li class="button">
-                <button type="submit">Book Your Appointment!</button>
-              </li>
-            </ul>
-          </form>
-            </div>
+        <div class="concerns">
+            <h2>Please include any questions or concerns you have relating to your service</h2>
+        </div>
 
+        <div class="help">
+            <form action="#" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" required>
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="user_email" required>
+                    </li>
+                    <li>
+                        <label for="service">Service:</label>
+                        <select id="service" name="selected_service" required>
+                          <option value="" disabled selected>Select a Service</option>
+                          <option value="customized">Customized Facial</option>
+                            <option value="exfoliating">Dual Exfoliating Facial</option>
+                            <option value="dermaplane">Dermaplane Facial</option>
+                            <option value="chemical">Chemical Peel</option>
+                            <option value="Tint">Brow Tint</option>
+                            <option value="Lamination">Brow Lamination</option>
+                            <option value="lash tint">Lash Tint</option>
+                            <option value="Lash lift">Lash Lift</option>
+                            <option value="Full">Full Leg</option>
+                            <option value="Half">Half Leg</option>
+                            <option value="FullArm">Full Arm</option>
+                            <option value="Underarm">Underarm Wax</option>
+                            <option value="Lip">Lip Wax</option>
+                            <option value="Nose">Nose Wax</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="date">Preferred Date:</label>
+                        <input type="date" id="date" name="preferred_date" required>
+                    </li>
+                    <li>
+                        <label for="time">Preferred Time:</label>
+                        <input type="time" id="time" name="preferred_time" required>
+                    </li>
+                    <li>
+                        <label for="msg">Questions & Concerns:</label>
+                        <textarea id="msg" name="user_message" required></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Book Your Appointment!</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
     </main>
-    
 
-                <Footer>
+    <footer>
         <p>Ally's Esthetics &copy; 2023 - Ally Mulleneaux</p>
-        <p><a HREF="esthi-site-plan.html">Site Plan</a></p>
+        <p><a href="esthi-site-plan.html">Site Plan</a></p>
         <p><a href="contactus.html"> Contact Us</a></p>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
@@ -73,25 +96,6 @@
                 <img src="images/instagram.png" alt="instagram icon">
             </a>
         </div>
-    </Footer>
-<script>
-    // get the feedback div element so we can do something with it.
-    const feedbackElement = document.getElementById('feedback');
-    // get the form so we can read what was entered in it.
-    const formElement = document.forms[0];
-    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-    formElement.addEventListener('submit', function(e) {
-        // stop the form from doing the default action.
-        e.preventDefault();
-        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
-        // make the feedback element visible.
-        feedbackElement.style.display = "block";
-        // add a class to move everything down so our message doesn't cover it.
-        document.body.classList.toggle('moveDown');
-    });
-</script>
+    </footer>
 </body>
 </html>
-
- 

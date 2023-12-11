@@ -90,7 +90,7 @@
 
 .serv{
     font-family: 'Agbalumo';
-    font-size: 40px;
+    font-size: 100px;
     text-align: center;
     color: white;}
 
@@ -99,9 +99,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color:white;
+    color:#faedea;
     font-family: 'Playpen Sans';
-     font-size: 30px;
+     font-size: 50px;
 }
 
 .brows{
@@ -109,10 +109,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color:white;
+    color:#faedea;
     font-family: 'Playpen Sans';
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .wax{
@@ -120,10 +120,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color:white;
+    color:#faedea;
     font-family: 'Playpen Sans';
     text-align: center;
-font-size: 30px;
+font-size: 50px;
 }
 .mission{
     margin-top: 10px;
@@ -157,21 +157,18 @@ nav{
 }
 
   
-  /* Style the service menu */
   .menu, .brows, .wax {
     border: 2px solid #faedea;
     padding: 20px;
    margin:0 auto;
    text-align: center;
-   font-size: 40px;
+   width: 75%;
   }
   
-  /* Style the flip cards */
   .flip-card {
     margin-top: 20px;
   }
 nav a{
-    float: center;
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -246,6 +243,8 @@ footer{
     text-align: center;
     font-family: 'Agbalumo';
     color: #e9b19f;
+    font-size: 30px;
+    
 
 }
 
@@ -262,15 +261,8 @@ footer a{
 footer a:hover{
     color: black ;
 }
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
 
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     display: flex;
     align-items: center;
@@ -286,7 +278,6 @@ footer a:hover{
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
-  /* This container is needed to position the front and back side */
   .flip-card-inner {
     position: relative;
     width: 100%;
@@ -296,12 +287,10 @@ footer a:hover{
     transform-style: preserve-3d;
   }
   
-  /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
   
-  /* Position the front and back side */
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
@@ -310,17 +299,34 @@ footer a:hover{
     backface-visibility: hidden;
   }
   
-  /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #bbb;
-    color: black;
+    color: #faedea;
   }
   
-  /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
+    color: black;
     transform: rotateY(180deg);
   }
+
+  form ul li input,
+form ul li textarea {
+  width: 75%; 
+  padding: 8px; 
+  box-sizing: border-box; 
+}
+
+form ul li textarea {
+  height: 150px;
+}
+
+form ul li.button {
+  margin-top: 10px; 
+}
+
+button {
+  width: 75%; 
+  padding: 10px; 
+  box-sizing: border-box; 
+}
 
   
