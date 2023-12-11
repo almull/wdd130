@@ -153,19 +153,34 @@ font-size: 30px;
 }
 
 nav{
-    justify-content: space-around;
-    font-family: 'Playpen Sans';
-    color: #e9b19f;
-    text-align: center;
-    padding-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
+   overflow: hidden;   
 }
 
+  
+  /* Style the service menu */
+  .menu, .brows, .wax {
+    border: 2px solid #faedea;
+    padding: 20px;
+   margin:0 auto;
+   text-align: center;
+   font-size: 40px;
+  }
+  
+  /* Style the flip cards */
+  .flip-card {
+    margin-top: 20px;
+  }
+nav a{
+    float: center;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
 nav a:hover{
     background-color: #f1c8be;
-    color: black;
+    color: #faedea;
 }
 
 .ae{
