@@ -6,61 +6,20 @@
     padding-bottom: 5%;
     display: block;
     margin: auto;
-      width: 375px;
-    height: 300px;
+      width: 575px;
+    height: 500px;
 }
 
+header{
+    background-color: #faedea;
+}
 
-.product{
-    width: 300px;
-    height: 300px;
+.oil, .salts, .brush {
+    width: 600px;
+    height: 600px;
     border: 5px solid #faedea;
-}
-
-.candle{
-    width: 300px;
-    height: 300px;
-    border: 5px solid #faedea;
-}
-
-.facial{
-    width: 300px;
-    height: 300px;
-    border: 5px solid #faedea;
-}
-
-.bottles{
-    width: 300px;
-    height: 300px;
-    border: 5px solid #faedea;
-}
-
-.jade{
-    width: 300px;
-    height: 300px;
-  border: 5px solid #faedea;
-}
-
-.lotion{
-    width: 300px;
-    height: 300px;
-    border: 5px solid #faedea;
-}
-
-.oil{
-    width: 300px;
-    height: 300px;
-    border: 5px solid #faedea;
-    
-}
-
-
-.brush{
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    border: 5px solid #faedea;
-   
+    margin: 10px;
+    box-sizing: border-box;
 }
 
 
@@ -68,10 +27,9 @@
     background-color: #e9afa1;
     color: #faedea;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 50px;
    padding: 10px 10px;
-   margin-top: 50px;
-   border-radius: 5px;
+  border-radius: 10px;
 }
 
 
@@ -79,9 +37,17 @@
     font-family: 'Playpen Sans';
     color: #faedea;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 45px;
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+
+    .purpose{
+        font-size: 100px;
+    text-align: center;
+    font-family: 'Agbalumo';
+    color: white;
+    text-decoration: underline;
+    margin-top: 0;
 }
 
 .book:hover{
@@ -92,7 +58,7 @@
     font-family: 'Agbalumo';
     font-size: 100px;
     text-align: center;
-    color: white;}
+    color: #faedea;}
 
 .menu{
     display: flex;
@@ -128,32 +94,21 @@ font-size: 50px;
 
  .mission {
     max-width: 50%;
-    margin: 20px auto; /* Adjust the margin to control spacing on the borders */
+    margin: 20px auto; 
     text-align: justify;
     padding: 20px;
     font-size: 30px;
     font-family: 'Playpen Sans';
     color: white;
     border: 5px solid #faedea;
-
-    }
-
-    .purpose{
-        font-size: 100px;
-    text-align: center;
-    font-family: 'Agbalumo';
-    color: white;
-    text-decoration: underline;
-
-    
     }
 
 .feedback{
     font-family: 'Agbalumo', Georgia;
     color: white;
     font-size: 30px;
-
 }
+
 .concerns{
     font-family: 'Agbalumo', Georgia;
     color: white;
@@ -199,26 +154,15 @@ nav a:hover{
     text-align: center;
     font-family: 'Agbalumo';
 }
-.salts{
-    width: 300px;
-    height: 300px;
-    margin-right: auto;
-    border: 5px solid #faedea;
-
-}
 
 nav{
     font-size: 200%;
 }
 
 .leaf{
-    width: 100%;
-    
-    
+    width: 100%;   
 }
-header{
-    background-color: #faedea;
-}
+
 main{
     padding-top: 7%;
     text-align: center;
@@ -288,7 +232,7 @@ footer a:hover{
     background-color: transparent;
     width: 300px;
     height: 200px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    perspective: 1000px; 
   }
   
   .flip-card-inner {
@@ -308,7 +252,7 @@ footer a:hover{
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
+    -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
   }
   
